@@ -1,0 +1,32 @@
+body {
+  font-family: 'Mooli', sans-serif;
+  background-color: rgb(171, 146, 116);
+}
+
+img {
+  margin-right: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cat-info {
+  display: flex;
+}
+
+.container-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.breed-select {
+  width: 200px;
+}
+.img-div{
+  background-color: rgb(138, 171, 116);
+}
+.txt-div{  background-color: rgb(138, 171, 116)}
